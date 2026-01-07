@@ -47,7 +47,7 @@ class UserRegister(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Auth API"}
+    return {"message": "Welcome to the Auth-API"}
 
 @app.post("/api/login")
 def login(user: UserLogin):
